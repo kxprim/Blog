@@ -1,0 +1,13 @@
+What is the purpose of installing Zsh instead of Bash?
+
+For one thing I find Zsh with the correct setup considerably more helpful to read through the command lines. You can look at it, and make your own judgement.
+	<insert screenshot of bash here>
+
+How do you install a similar version of Zsh?
+
+1. You'll first need to clone and install Robby Russell's Oh-My-Zsh repository. His GitHub repo is very well explained. [link] https://github.com/robbyrussell/oh-my-zsh
+2. Once this is done, you'll have to install Homebrew on your Terminal console. Download Homebrew [link]https://github.com/Homebrew/install/archive/master.zip [link] and double-click on the Install file. This will automatically open your Terminal app and proceed to the installation.
+3. You can then setup the Zsh theme called Prezto. What is it? Prezto is a configuration framework for Zsh. It adds to the command lines not only a considerably easier readability (something I appreciate a lot) but also embeds a number of helpful aliases and autocompletions that will simplify your life.
+4. 
+The installation procedure is again well explained on the Readme documentation in the repo. [image]
+
