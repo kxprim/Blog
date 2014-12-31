@@ -1,0 +1,34 @@
+In Javascript, the definitions of prototypes, __proto__, and the constructor are  mysterious for someone new to the language.
+
+First, let's define what each one does so we can then understand how they do it.
+In pseudo-classical pattern
+What is a prototype?
+- the place where object store their methods and properties.
+- they can be accessed by the children of this object
+- It's methods can be for instance Object.prototype.hasOwnProperty() or Object.prototype.toString()	
+- Therefore, objects that share a prototype also share the properties of that prototype as they are delegated.
+
+What is a __proto__
+- It's a property of prototype, just like Object.prototype.constructor and Object.prototype.__noSuchMethod__.
+- It's a special parent property of an object
+
+What is a constructor?
+- A bit like a factory producing toys, the constructor produces an obj. That means that whenever an object is created, it is associated with the constructor that created it. [insert diagram here]
+
+
+Explain the pseudo-classical instantiation process below.
+Mammal.prototype
+// {}
+var mammal = new Mammal()
+mammal.__proto__ === Mammal.prototype
+// true	
+Mammal.prototype.breathe = function(){
+    // do some breathing
+}
+mammal.breathe()
+Cat.prototype.constructor = Cat
+
+
+Reference:
+- http://tobyho.com/2010/11/22/javascript-constructors-and/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype

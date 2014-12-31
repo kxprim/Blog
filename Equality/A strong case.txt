@@ -1,0 +1,30 @@
+A strong case against the double equality (==)
+
+Javascript has some pretty strange rules when it comes to the double equal sign (==).
+
+Douglas Crockford, the Javascript legend, points out some of the peculiarities of the double equal in Javascript: The Good Part.(http://youtu.be/hQVTIJBZook?t=14m59s)
+
+Start quote
+JavaScript has two sets of equality operators: === and !==, and their evil twins == and !=. The good ones work the way you would expect. If the two operands are of the same type and have the same value, then === produces true and !== produces false. The evil twins do the right thing when the operands are of the same type, but if they are of different types, they attempt to coerce the values. the rules by which they do that are complicated and unmemorable. These are some of the interesting cases:
+
+'' == '0'           // false
+0 == ''             // true
+0 == '0'            // true
+
+false == 'false'    // false
+false == '0'        // true
+
+false == undefined  // false
+false == null       // false
+null == undefined   // true
+
+' \t\r\n ' == 0     // true
+The lack of transitivity is alarming. My advice is to never use the evil twins. Instead, always use === and !==. All of the comparisons just shown produce false with the === operator.
+
+End quote
+
+To focus on Crockford's point the double equal is highly unrecommended, and here's a better understanding of the reason why:
+INSERT IMAGE HERE
+(https://raw.githubusercontent.com/kxprim/Blog/master/Equality/equalComparisions.jpg)
+
+Unless you do have burning desire of memorizing each condition, you - and the readers of your code - will be better off simply using the triple equal as source of comparision.
