@@ -1,0 +1,14 @@
+# What makes a good technical blog post?
+
+Recently I came across a great AngularJS technical [blog article on routing](https://scotch.io/tutorials/single-page-apps-with-angularjs-routing-and-templating)  along with a [StackOverflow answer](http://stackoverflow.com/questions/14324451/angular-service-vs-angular-factory) describing well the difference between Factories and Services. I wondered what made them standout . After having spent weeks learning the fundamentals of creating a Javascript full-stack app I've had to read many dozens of articles. Only few actually were truely useful and I here is what made them so.
+
+__Code readability__
+Code snippets had to be easily readable. That was a great point when reading through an explanation of code. If the code cannot be read quickly then it tires the reader.
+
+__Has to be sequential__
+Also, the writer of a good article generally describes in actionnable steps every part of the code in order to build the desired feature. The description should therefore be sequential so that a person new to the technology can quickly grasp an understanding.
+
+To continue with this idea, the reader should be able to implement the code on his own and easily make it work. 
+
+__Remember the Internet is global__
+What makes the Internet so great is it's ability to reach people all over the world. Therefore, while writing code, it's important to keep in mind your reader might not be completely fluent in English. The code, and the chosen examples should speak for themselves. Examples should be basic and representative enough for little need of contextual text around the code.

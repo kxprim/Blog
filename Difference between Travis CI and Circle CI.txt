@@ -1,0 +1,32 @@
+# Difference between Travis CI and Circle CI
+
+### Continuous Integration
+We have recently used both Travis CI and Circle CI to process our tests on two different projects and one was - to our understanding - was our favorite.
+
+Today and since its creating Travis CI has had considerable [more interest](http://www.google.com/trends/explore#q=Codeship,Travis+CI,CircleCI) than Circle CI. I have been wondering why. Is it that the Continuous Integration is simply more common in the industry therefore it attracts more users? 
+It may be part of the answer. The other part though, is that Travis has a longer history and therefore offers many more features than other Continuous Integration tools do. 
+![]()
+For one thing, we started using Travis in our first group project at Hack React because it was the more visible tool we found.
+It was after a discussion with Scott Moss, Hack Reactor's Lead Engineer, when he said he switched to Circle when first trying the tool and was blown away by how much simpler it is.
+
+### Setup
+
+Travis:
+
+
+Circle:
+After a lengthy process of installing Travis for our first project we scheduled one to two hours to do the same and experiment with Circle in our second project.
+The installation took no more than five minutes. We were subjugated. It's [website](https://circleci.com/) is so intuitive that the integration with our repository's test file was quasi-instantaneous. 
+
+### Use
+
+Travis:
+<compare more with what Travis is and does>
+
+Circle:
+We thoroughly enjoyed the integration of Circle within our Slack communication workflow. We were notified everytime a test went through.
+ ![](http://github.com/circleSlackIntegration.png)
+
+Other than that, Travis CI offers its users tutorial for all sorts of programming languages. It's one of the benefits of using a more established software.	
+
+Especially if you are beginning in the testing world I would recommend by far to start with Circle CI. Travis, due to its older age may have additional layers of complexity making it harder for the uninitialized to integrate at first.

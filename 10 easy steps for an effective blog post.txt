@@ -1,0 +1,61 @@
+There was a book and a blog I found  incredibly helpful on writing and programming. I wanted to share points made about how to be a successful writer on the web. ["On Writing Well"](http://www.amazon.com/Writing-Well-30th-Anniversary-Edition/dp/0060891548) by William Zinsser is the book any aspiring blog writer should read. ["Coding Horror"](http://blog.codinghorror.com/) by Jeff Atwood is one of the most widely know programming blogs on the web.
+
+**1 - Write as if you're talking to someone you know**
+
+> "Forget your generalised audience. In the first place, the nameless, faceless audience will scare you to death and in the second place, unlike the theatre, it doesn't exist. In writing, your audience is one single reader. I have found that sometimes it helps to pick out one person—a real person you know, or an imagined person and write to that one."
+- [John Steinbeck](http://101books.net/2012/08/13/john-steinbeck-on-writing)
+
+**2 - You know nothing John Snow**
+
+Assume that you are communicating information to a person who has no knowledge on the subject. There is a common writers' mantra: *"Assume the reader knows nothing"*. If you're writing technical articles you'll benefit even more from remembering the mantra.  
+
+**3 - Writing is not only for English teachers.**
+> 'Writing is thinking on paper. Anyone who thinks clearly can write clearly, about anything at all. Science, demystified, is just another non-fiction subject. Writing, demystified, is just another way for scientists [and engineers] to transmit what they know."
+
+Writing, just like coding, is procedural. That means it forces you to have very clear actionable steps. Describing a sequence is not only important for the reader who wants a procedure, but also for you, the writer, who has to ensure *you* know clearly what each step is. We realise that some of us could benefit from a more ordered thinking pattern. Easily improved with writing.
+
+**4 - Easy words**
+
+> "Imagine science writing as an upside-down pyramid. Start at the bottom with the one fact a reader must know before he can learn any more. The second sentence broadens what was stated first, making the pyramid wider, and the third sentence broadens the second, so that you can gradually move beyond fact into significance and speculation-how a new discovery alters what was know, what new avenues of research it might open , where the research might be applied. There's no limit to how wide the pyramid can become, but your readers will understand the broad implication only if they start with one narrow fact. "
+
+Avoid using complicated words. Simple, well chosen words, convey more power than elaborate words few understand. So rules of simplicity and logic support a high quality article.
+
+**5 - Make the article scannable** 
+
+Make sure the text can be scanned easily. Most readers [won't read your whole article](http://www.nngroup.com/articles/concise-scannable-and-objective-how-to-write-for-the-web/).
+
+"Studies of how users read on the Web found that they do not actually read: instead, they scan the text. A study of five different writing styles found that **a sample Web site scored 58% higher** in measured usability when it was **written concisely**, **47% higher** when the text was **scannable**, and **27% higher** when it was written in an **objective style** instead of the promotional style used in the control condition and many current Web pages. Combining these three changes into a single site that was concise, scannable, and objective at the same time **resulted in 124% higher measured usability**."
+
+**6 - Simplify**
+
+When reading your articles the text should feel fresh. One easy way of doing that is, after writing a first draft go back and simplify each sentence and each word. It doesn't mean to dumb down your article. Rather the opposite. An effective writer according to Zinsser should *"look for clutter in [the] writing and prune it ruthlessly."* You can *"be grateful for everything you can throw away."* We can cut about 50% of words from the draft without loosing meaning.
+
+**7 - Be yourself**
+
+> "If it sounds like writing, I rewrite it." - *Elmore Leonard*
+ 
+> "The reader will notice if you are putting on airs. Readers want the person who is talking to them to sound genuine. Therefore, the fundamental rule is: be yourself." - *William Zinsser*
+
+If you find something interesting tell your readers about it. Tell them what you have learned and why it's special enough -for you- that you wanted to share your discovery with your reader. Don't hesitate to have an opinion on the subject. Tell your reader with words that come naturally.
+
+**8 - Know your punctuation**
+
+Here's a useful article from a [blog](http://whatever.scalzi.com/2006/02/12/writing-tips-for-non-writers-who-dont-want-to-work-at-writing/)
+
+>**Periods:** When you’re writing down a thought and you’re at the end of that thought, put a period.  
+**Commas:** When you’re writing down a thought and you want to take a breath, whether mental or physical, put in a comma.  
+**Semi-colon:** Put these in your writing in the place where, in conversation, you’d arch your eyebrow or make some other sort of physical gesture signalling that you want to emphasise a point. 
+Colon: Use when you want to make an example of something: For example, just like this.
+**Question Mark:** Quite obviously, when you have a question.
+Exclamation point: When you’re really excited about something. You almost never need to use more than one in a paragraph. Use more than one in a sentence and you damn well better be using it for humorous and/or ironic effect. 
+**Dashes:** You can use these when you’ve already used a colon or a semi-colon in a sentence, but be aware that if you have more than one colon or semi-colon in a sentence, you’re probably doing something wrong."
+
+**9 - Keep shipping** 
+
+For Jeff Atwood, Coding Horror's author, building attraction relies on only one thing. [Keep shipping](http://blog.codinghorror.com/how-to-achieve-ultimate-blog-success-in-one-easy-step/). The more you write, the more you'll be featured on other blogs and the more followers you will have. 
+Remember this whenever you find yourself in front of an empty page and words don't come out. Most - if not all - writers go through a [fear of writing](http://blog.codinghorror.com/fear-of-writing/). Usually often. The most important is to keep writing, no matter how long the article is. If you found a link interesting, share it. If you found an image revealing, share it also. If you found a useful tutorial, share it. Your growing community of readers will only benefit from your posts like while you'll overcome your fear of writing.
+
+**10 - Have fun**
+> "You are writing primarily to please yourself"
+
+While writing, your first goal should be to enjoy what you do. You should therefore write to please yourself before your audience.  By entertaining yourself first you will automatically entertain your audience as a result.
