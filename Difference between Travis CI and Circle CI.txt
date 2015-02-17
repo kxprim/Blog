@@ -7,16 +7,17 @@ Today and since its creating Travis CI has had considerable [more interest](http
 It may be part of the answer. The other part though, is that Travis has a longer history and therefore offers many more features than other Continuous Integration tools do. 
 ![]()
 For one thing, we started using Travis in our first group project at Hack React because it was the more visible tool we found.
-It was after a discussion with Scott Moss, Hack Reactor's Lead Engineer, when he said he switched to Circle when first trying the tool and was blown away by how much simpler it is.
+After a discussion with Scott Moss, Hack Reactor's Lead Engineer, we decided to give Circle a try following strong arguments in favor of its simplicity of use. We were indeed blown away.
 
 ### Setup
+Both setups are fairly straight forward. They require the following steps:
+1. Sign up on their website
+2. Set up a repository, or select the one you want to test. Then [create a YAML file](http://tech.pro/tutorial/1749/get-your-ci-on-with-travis-ci).
+3. 
 
-Travis:
+The installation with Circle CI took no more than five minutes whilst that with Travis took longer as we encountered issues. For one thing, we were subjugated by Circle's [website](https://circleci.com/). It's so intuitive that the integration with our repository's test file was quasi-instantaneous. 
 
-
-Circle:
-After a lengthy process of installing Travis for our first project we scheduled one to two hours to do the same and experiment with Circle in our second project.
-The installation took no more than five minutes. We were subjugated. It's [website](https://circleci.com/) is so intuitive that the integration with our repository's test file was quasi-instantaneous. 
+![]()
 
 ### Use
 
