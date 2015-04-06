@@ -1,0 +1,77 @@
+## Instantiation Patterns
+
+Instantiation patterns are different ways of creating instance of objects and modularizing their global functions.
+
+When starting with Javascript, a novice may be confused with the different ways of creating a class he or she might come across. For the essential part there are four Instantiation Patterns and they're worth learning to better understand code read. The patterns are Functional, Functional-Shared, Prototypal, and finally Pseudoclassical.
+
+ This article will cover their respective implementations and performances. Let's start with the first one.
+ 
+### Functional
+```javascript
+var makeCar = function() {
+	var car = {};
+	car.fuelLevel = 60;
+	car.mileage = 9900;
+	car.fuelConsumption = function() { this.fuelLevel-- };
+	car.mileage = function() { this.mileage++ };
+	return car;
+ };
+ var newCar = makeCar();
+```
+The functional pattern is very explicit in the way it's written. Compared to other patterns this one doesn't make use of the word 'this'. Therefore, the code is easier to read. It's useage, then, could be considered when working with new programmers or clients who have a shallower	 understanding of programming languages.
+
+### Functional-Shared
+```javascript
+var makeCar = function() {
+	var car = {};
+	car.fuelLevel = 60;
+	car.mileage = 9900;
+	 _.extend( car, carMethods );
+	return car;
+ };
+ var carMethods = {}; 
+carMethods.fuelConsumption = function() { this.fuelLevel-- };
+carMethods.mileage = function() { this.mileage++ };
+ var newCar = makeCar();
+```
+As implied by it's name, the Functional-Shared pattern shares its methods here using the _.extend function of the Underscore.js library.  A part from the addition of 'this' in methods the rest is very similar to the Functional pattern.
+
+### Prototypal
+```javascript
+var makeCar = function() {
+	var car = Object.create( carMethods );
+	car.fuelLevel = 60;
+	car.mileage = 9900;
+	var carMethods = {};
+	carMethods.fuelConsumption = function() { this.fuelLevel-- };
+	carMethods.mileage = function() { this.mileage++ };
+ };
+ var newCar = makeCar();
+```
+With the use of Object.create() the Prototypal pattern delegates methods as prototypes instead of being copied for every new instance. This difference makes better performances as it becomes faster to instantiate an object.
+
+### Pseudoclassical
+```javascript
+var Car = function() {
+	this.fuelLevel = 60;
+	this.mileage = 9900;
+ };
+ var newCar = new Car();
+ 
+Car.prototype.fuelConsumption = function() { this.fuelLevel-- };
+Car.prototype.mileage = function() { this.mileage++ };
+```
+
+While as you'll see later the Pseudoclassical instantiation is the better performing of all, the extensive usage of the keyword 'this' may confuse the first time users of the language.
+What the 'new' keyword does is create an instance of the class and returns it implicitely while with other patterns a line has to explicitely be written to return the object ( 'return car;' ).
+For every use of the word, the following command is ran without having the programmer even noticing. 
+```javascript
+	this = Object.create(Object.prototype);
+	return this;
+```
+It's therefore recommanded to have a full understanding of what object 'this' corresponds to every time it appears as object binding can sometimes become confusing.
+
+## Performance
+As shown [here](http://jsperf.com/new-instantiator), each instantiation pattern comes with a more or less higher performance than the previous.
+
+![]()  

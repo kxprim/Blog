@@ -1,0 +1,26 @@
+This is the begining of several tutorials to create a fun 3D world with Three.js on WebGL technology. Our end result will look like that:
+![](endResult.png)
+
+Let's first create a blank HTML page.
+```HTML
+<html>
+  <head>
+    <title>Three.js Test</title>
+  </head>
+  <body>
+  </body>
+  </html>
+```
+
+The first step to have a successful 3D scene is to have full control over a few components. Those are:
+* the camera positioning
+* a light source
+* objects to cast and receive shadows
+
+The reason to use shadows is to allow our brain understand the relative distance between objects.
+
+
+
+```JAVASCRIPT
+
+```
