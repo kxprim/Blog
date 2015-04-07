@@ -74,4 +74,4 @@ It's therefore recommanded to have a full understanding of what object 'this' co
 ## Performance
 As shown [here](http://jsperf.com/new-instantiator), each instantiation pattern comes with a more or less higher performance than the previous.
 
-![]()  
+![](https://raw.githubusercontent.com/kxprim/Blog/master/instantiationPatterns/instantiationPatternsPerf.jpg)  
